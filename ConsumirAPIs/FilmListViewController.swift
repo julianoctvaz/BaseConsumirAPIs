@@ -28,6 +28,7 @@ class FilmListViewController: UITableViewController {
         let session = URLSession.shared
         
         let task = session.dataTask(with: siteQueQueroDerrubar) { (data, response, error) in
+           //-------------------
             
             do{
                 let decodificador = JSONDecoder()
@@ -47,6 +48,29 @@ class FilmListViewController: UITableViewController {
                         self.filmsRetornados = [] //apsodkopaskdpaos
                     }
                 }
+        //------------
+                /* outra forma de fazer
+                                                                 
+                                                                 
+    func processa(dados: Data?, resposta: URLResponse?, erro: Error?) {
+        
+        if let data = dados {
+            
+            let decoder = JSONDecoder()
+            if let films = try? decoder.decode([Film].self, from: data) {
+            
+                DispatchQueue.main.async {
+                    self.films = films
+                    self.tableView.reloadData()
+                }
+                
+            }
+        }
+    }
+    
+ai chama o completionHandler na linha 30, inves em vez de fazer um closure (clausura by Castor)
+                                                                 
+        */                                                         
         }
                 
         task.resume()
