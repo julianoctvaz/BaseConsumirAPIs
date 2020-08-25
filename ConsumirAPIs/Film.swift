@@ -9,6 +9,22 @@
 import Foundation
 
 /// Film é um struct que pode ser decodificado a partir de um JSON
-struct Film: Decodable {
-    // TODO: quais são as propriedades de Film?
+
+// MARK: - Film
+struct Film: Codable {
+    let id, title, filmDescription, director: String
+    let producer, releaseDate, rtScore: String
+    let people, species, locations, vehicles: [String]
+    let url: String
+
+    enum CodingKeys: String, CodingKey {
+        case id, title
+        case filmDescription = "description"
+        case director, producer
+        case releaseDate = "release_date"
+        case rtScore = "rt_score"
+        case people, species, locations, vehicles, url
+    }
 }
+
+//typealias Films = [Film] // o que é isso kkkkk scr tipo um apelido, aceito
