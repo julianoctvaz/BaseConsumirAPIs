@@ -31,11 +31,11 @@ class FilmListViewController: UITableViewController {
             
             do{
                 let decodificador = JSONDecoder()
-                let filmsRetornados =  try decodificador.decode(Array<Film>.self, from: data!)
+                let filmsRetornados_DentroDaFuncao =  try decodificador.decode(Array<Film>.self, from: data!)
                 
                 DispatchQueue.main.async {
-                    self.filmsRetornados = filmsRetornados
-                    self.quantidade_filmes = filmsRetornados.count
+                    self.filmsRetornados = filmsRetornados_DentroDaFuncao
+                    self.quantidade_filmes = filmsRetornados_DentroDaFuncao.count
                     print(self.quantidade_filmes)
                      print(self.filmsRetornados)
                     self.tableView.reloadData() //essa funcao aqui é importante para recarregar as coisas
