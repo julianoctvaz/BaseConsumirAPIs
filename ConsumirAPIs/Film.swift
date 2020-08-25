@@ -30,5 +30,5 @@ struct Film: Codable {
 //typealias Films = [Film] // o que é isso kkkkk scr tipo um apelido, aceito
 
 
-https://ghibliapi.herokuapp.com/films
-https://app.quicktype.io/ site que formata para varias linguagens modelos de json
+//https://ghibliapi.herokuapp.com/films
+//https://app.quicktype.io/ site que formata para varias linguagens modelos de json
