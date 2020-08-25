@@ -68,7 +68,7 @@ class FilmListViewController: UITableViewController {
         }
     }
     
-ai chama o completionHandler na linha 30, inves em vez de fazer um closure (clausura by Castor)
+ai chama o completionHandler: processa na linha 30, inves em vez de fazer um closure (clausura by Castor)
                                                                  
         */                                                         
         }
