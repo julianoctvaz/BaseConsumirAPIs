@@ -11,7 +11,7 @@ import UIKit
 
 class FilmViewController: UIViewController {
 
-    var film: Film?
+    var film: Location?
     
     override func viewDidLoad() {
         super.viewDidLoad()

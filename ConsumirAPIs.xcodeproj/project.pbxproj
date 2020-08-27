@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1777A2B324F829C2002D2D21 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777A2B224F829C2002D2D21 /* Location.swift */; };
 		DB8E5EA624EEFB580035E13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5EA524EEFB580035E13D /* AppDelegate.swift */; };
 		DB8E5EA824EEFB580035E13D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5EA724EEFB580035E13D /* SceneDelegate.swift */; };
 		DB8E5EAA24EEFB580035E13D /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E5EA924EEFB580035E13D /* FilmListViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1777A2B224F829C2002D2D21 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DB8E5EA224EEFB580035E13D /* ConsumirAPIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsumirAPIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8E5EA524EEFB580035E13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB8E5EA724EEFB580035E13D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				DB8E5EB924EF03CB0035E13D /* FilmTableViewCell.swift */,
 				DBE0036E24F0E68300E2F681 /* FilmViewController.swift */,
 				DBE0036C24EF122000E2F681 /* Film.swift */,
+				1777A2B224F829C2002D2D21 /* Location.swift */,
 				DB8E5EAB24EEFB580035E13D /* Main.storyboard */,
 				DB8E5EAE24EEFB5A0035E13D /* Assets.xcassets */,
 				DB8E5EB024EEFB5A0035E13D /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				DB8E5EA624EEFB580035E13D /* AppDelegate.swift in Sources */,
 				DBE0036F24F0E68300E2F681 /* FilmViewController.swift in Sources */,
 				DB8E5EA824EEFB580035E13D /* SceneDelegate.swift in Sources */,
+				1777A2B324F829C2002D2D21 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
